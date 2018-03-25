@@ -1,0 +1,1 @@
+This is a single-page application written with ReactJS and is the frontend counterpart to "MusicApi". Just something simple to get familiar with ReactJS.

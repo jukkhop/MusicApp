@@ -1,0 +1,60 @@
+
+.ArtistList {
+  margin-top: 5px;
+  width: 100%;
+  font-size: large;
+  border: 1px solid white;
+}
+
+.ArtistForm,
+.ArtistForm input,
+.ArtistForm button {
+  font-size: 17px;
+}
+
+.Artist.Collapsible {
+  background: green;
+  text-align: left;
+  background: pink;
+  padding-top: 5px;
+  border-bottom: 1px solid white;
+  border-radius: 3px;
+}
+
+.Artist .Collapsible__trigger {
+  color: white;
+  display: block;
+  width: 100%;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.Artist .Collapsible__trigger i {
+  font-size: 14px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.Artist .Collapsible__trigger i.fa-minus {
+  margin-top: 7px;
+}
+
+.Artist .Collapsible__trigger.is-closed .fa-chevron-down,
+.Artist .Collapsible__trigger.is-open .fa-chevron-up {
+  display: none;
+}
+
+.Artist .Collapsible__trigger.is-open .fa-chevron-down,
+.Artist .Collapsible__trigger.is-closed .fa-chevron-up {
+  display: inline-block;
+}
+
+.Artist .Collapsible__contentInner {
+  padding: 5px;
+}
+
+.Artist .Collapsible__contentOuter {
+  background: white;
+  margin-top: 5px;
+}
